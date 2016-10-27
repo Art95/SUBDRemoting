@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/SUBDRemoting.jar server.Publisher $PORT
+web: java $JAVA_OPTS -cp target/SUBDRemoting.jar subd.SUBDService $PORT
